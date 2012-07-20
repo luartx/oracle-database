@@ -1,0 +1,14 @@
+-- Insercion de datos de dba detalles
+
+-- Primer dato
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO(PK_ID_DBA_ADMIN_INFO,FK_ID_DBA_INFO_DETALLE,FK_ID_INSTANCE_INFO) 
+							VALUES (1,1,1);
+
+-- Con secuencia
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO(PK_ID_DBA_ADMIN_INFO,FK_ID_DBA_INFO_DETALLE,FK_ID_INSTANCE_INFO) 
+							VALUES (reportdba.dba_admin_info_seq.nextval,2,1);
+
+
+
+
+-- delete from REPORTDBA.DBA_ADMIN_INFO_DETALLE;			

@@ -1,0 +1,16 @@
+-- Insercion de datos de dba detalles
+
+-- Primer dato
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
+							VALUES (1,'Leopoldo','Aguilera','Gonzalez','5500000000','leopoldo.aguilera.gonzalez@banorte.com');
+
+
+-- Con secuencia					
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
+							VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Arturo','Leon','Bastida','5500000000','arturo_leon.extenopekcons@banorte.com');
+		
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
+							VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Luis Arturo','Garcia','Gonzalez','5500000000','luis_garcia.externopek@banorte.com');
+
+
+-- delete from REPORTDBA.DBA_ADMIN_INFO_DETALLE;			
