@@ -1,16 +1,21 @@
--- Insercion de datos de dba detalles
+-- INSERCION DE DATOS DE DBA DETALLES
+-- SEQUENCIA DBA_ADMIN_INFO_SEQ
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Arturo','Leon','Bastida','5500000000','arturo_leon.extenopekcons@banorte.com');	
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Luis Arturo','Garcia','Gonzalez','5500000000','luis_garcia.externopek@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Leopoldo','Aguilera','Gonzalez','5500000000','leopoldo.aguilera.gonzalez@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Victor','Hernandez','Lopez','5500000000','victor_hernandez.externopek@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Juan Manuel','Lopez','Ortega','5500000000','juan_lopez.externopek@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Daniel','Aguilar','Rodriguez','5500000000','daguilarro@ixe.com.mx');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Oscar Omar','Arriaga','Soto','5500000000','oscar_arriaga.externopek@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Noe','Sedeño','Mayorga','5500000000','noe_sedeno.externopek@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Carlos Abraham','Perera','Pacheco','5500000000','carlos.perera@banorte.com');
+INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Victor Alfonso','Guillen','Zurita','5500000000','victor.guillen.zurita@banorte.com');
 
--- Primer dato
-INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
-							VALUES (1,'Leopoldo','Aguilera','Gonzalez','5500000000','leopoldo.aguilera.gonzalez@banorte.com');
+-- SECUENCIA DATA
+SELECT REPORTDBA.DBA_ADMIN_INFO_DETALLE_SEQ.NEXTVAL FROM DUAL;
+SELECT REPORTDBA.DBA_ADMIN_INFO_DETALLE_SEQ.CURRVAL FROM DUAL;
 
-
--- Con secuencia					
-INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
-							VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Arturo','Leon','Bastida','5500000000','arturo_leon.extenopekcons@banorte.com');
-		
-INSERT INTO REPORTDBA.DBA_ADMIN_INFO_DETALLE(PK_ID_DBA_ADMIN_INFO_DETALLE,NOMBRE,APELLIDO_P,APELLIDO_M,TELEFONO,CORREO) 
-							VALUES (reportdba.dba_admin_info_detalle_seq.NEXTVAL,'Luis Arturo','Garcia','Gonzalez','5500000000','luis_garcia.externopek@banorte.com');
-
-
+-- TABLE DATA
+SELECT * FROM REPORTDBA.DBA_ADMIN_INFO_DETALLE;			
+							
 -- delete from REPORTDBA.DBA_ADMIN_INFO_DETALLE;			
